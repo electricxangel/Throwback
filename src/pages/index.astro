@@ -4,8 +4,6 @@ import throwback_logo from '../images/throwback-logo.png';
 import scenepheus from '../images/scenepheus.png';
 import orph from '../images/2000spheus.png';
 
-import { Font } from "astro:assets";
-
 ---
 
 
@@ -16,7 +14,9 @@ import { Font } from "astro:assets";
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<Font cssVariable="--font-bungee-regular"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 
 		<title>Throwback</title>
 
@@ -24,7 +24,7 @@ import { Font } from "astro:assets";
 			body {
 				background-color: hotpink;
 				text-align: center;
-				font-family: var(--font-bungee-regular);
+				font-family: 'Bungee';
 				
 			}
 
