@@ -25,7 +25,7 @@ import { Font } from "astro:assets";
 				background-color: hotpink;
 				text-align: center;
 				font-family: var(--font-bungee-regular);
-
+				
 			}
 
 			h1 {
@@ -39,7 +39,16 @@ import { Font } from "astro:assets";
 			}
 
 			h3 {
-				font-size: x-large;
+				font-size: 20;
+			}
+			
+			a {
+				color:#3161e3;
+				transition: font-size 0.3s ease;
+			}
+			a:hover {
+				color:#2e519e;
+				font-size: 120%;
 			}
 
 
@@ -50,6 +59,8 @@ import { Font } from "astro:assets";
 	<Image src={throwback_logo} width="374" alt="throwback logo" class="center" layout="constrained"/>
         <h1>Make a 2000s-themed project in P5.js. Make custom assets. Get 2000s-themed accessories.</h1>
 
+		<br>
+		
 
 		<span style="display:block; float: right; margin-bottom: 1em; width: 250px; height: 200px;">
 			<Image src={orph} width="215" alt="2000s orphie"/>
@@ -61,14 +72,17 @@ import { Font } from "astro:assets";
 
 
 		<h1><a href="https://hackclub.com" target="_blank">Submit!</a></h1>
+		<h3>Closes 00:00 EDT, August 21st</h3>
 
 		
-
+		<br>
 
 		<h1>Submission requirements</h1>
 
 		<h3>‣ Research (almost) ANY niche from the 2000s <br>‣ Make a project in p5.js<br>‣ Deploy on itch.io <br>‣ Make at least one ORIGINAL art music asset <br>‣ No AI art! </h3>
 	
+		<br>
+
 		<h2>
 			<a href="https://hackclub.com" target="_blank">A Hack Club program</a>
 		</h2>
