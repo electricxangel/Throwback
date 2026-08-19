@@ -3,6 +3,8 @@ import { Image } from "astro:assets";
 import throwback_logo from '../images/throwback-logo.png';
 
 import { Font } from "astro:assets";
+
+
 ---
 
 
@@ -27,7 +29,11 @@ import { Font } from "astro:assets";
 
 			h1 {
 				text-align: center;
-				font:
+			}
+
+			h2 {
+				text-align: center;
+				font-size: x-large;
 			}
 		</style>
 	</head>
@@ -35,10 +41,15 @@ import { Font } from "astro:assets";
 		
 	<Image src={throwback_logo} width="374" alt="throwback logo" class="center" layout="constrained"/>
         <h1>
-			Make a 2000s-themed project in P5.js. Get 2000s-themed accessories.
+			Make a 2000s-themed project in P5.js. Make custom assets. Get 2000s-themed accessories.
 		</h1>
 
-		<h1>Submit! <a href=""></a></h1>
+
+		<h1><a href="https://hackclub.com" target="_blank">Submit!</a></h1>
+
+		<h2>
+			test
+		</h2>
 	
 	</body>
 </html>
