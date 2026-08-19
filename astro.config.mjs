@@ -9,7 +9,7 @@ export default defineConfig({
         cssVariable: "--font-bungee-regular",
         options: {
             variants: [{
-                src: ['./src/fonts/Bungee-regular.ttf'],
+                src: ['../src/fonts/Bungee-regular.ttf'],
                 weight: 'normal',
                 style: 'normal'
             }]
