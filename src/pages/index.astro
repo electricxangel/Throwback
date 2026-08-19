@@ -1,9 +1,10 @@
 ---
 import { Image } from "astro:assets";
 import throwback_logo from '../images/throwback-logo.png';
+import scenepheus from '../images/scenepheus.png';
+import orph from '../images/2000spheus.png';
 
 import { Font } from "astro:assets";
-
 
 ---
 
@@ -29,27 +30,50 @@ import { Font } from "astro:assets";
 
 			h1 {
 				text-align: center;
+				image
 			}
 
 			h2 {
 				text-align: center;
+				font-size: large;
+			}
+
+			h3 {
 				font-size: x-large;
 			}
+
+
 		</style>
 	</head>
 	<body>
 		
 	<Image src={throwback_logo} width="374" alt="throwback logo" class="center" layout="constrained"/>
-        <h1>
-			Make a 2000s-themed project in P5.js. Make custom assets. Get 2000s-themed accessories.
-		</h1>
+        <h1>Make a 2000s-themed project in P5.js. Make custom assets. Get 2000s-themed accessories.</h1>
+
+
+		<span style="display:block; float: right; margin-bottom: 1em; width: 250px; height: 200px;">
+			<Image src={orph} width="215" alt="2000s orphie"/>
+		</span>
+
+		<span style="display:block; float: left; margin-bottom: 1em; width: 250px; height: 200px;">
+			<Image src={scenepheus} width="215" alt="2000s orphie"/>
+		</span>
 
 
 		<h1><a href="https://hackclub.com" target="_blank">Submit!</a></h1>
 
+		
+
+
+		<h1>Submission requirements</h1>
+
+		<h3>‣ Research (almost) ANY niche from the 2000s <br>‣ Make a project in p5.js<br>‣ Deploy on itch.io <br>‣ Make at least one ORIGINAL art music asset <br>‣ No AI art! </h3>
+	
 		<h2>
-			test
+			<a href="https://hackclub.com" target="_blank">A Hack Club program</a>
 		</h2>
+		
+		
 	
 	</body>
 </html>
